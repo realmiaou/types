@@ -6,9 +6,7 @@
   "license": "MIT",
   "private": false,
   "scripts": {
-    "lint": "eslint --ext .ts --ignore-path .gitignore .",
-    "build": "tsc",
-    "semantic-release": "semantic-release"
+    "lint": "eslint --ext .ts --ignore-path .gitignore ."
   },
   "publishConfig": {
     "access": "public"
