@@ -4,6 +4,8 @@
   "author": "Thibaut Mottet",
   "description": "Utility types",
   "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
   "private": false,
   "scripts": {
     "lint": "eslint --ext .ts --ignore-path .gitignore .",
