@@ -8,7 +8,7 @@ default:
         echo "${CI_API_V4_URL#https?}/projects/${CI_PROJECT_ID}/packages/npm/:_authToken=${NPM_TOKEN}"
       } | tee --append .npmrc
   cache:
-    key: ${CI_COMMIT_REF_SLUG}
+    key: miaou-${CI_COMMIT_REF_SLUG}
     paths:
       - .npm/
 
