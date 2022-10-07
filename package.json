@@ -14,7 +14,7 @@
     "access": "public"
   },
   "files": [
-    "lib"
+    "src/**/*"
   ],
   "devDependencies": {
     "@semantic-release/git": "10.0.1",
