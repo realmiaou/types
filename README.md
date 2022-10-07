@@ -3,12 +3,12 @@
 ## How to use
 
 ```
-npm install
+yarn install
 ```
 
 ## Test
 
-You can use `npm link` to debug the module
+You can use `yarn link` to debug the module
 
 ## Release commit semantic
 
