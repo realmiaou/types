@@ -9,6 +9,7 @@ stages:
   - release
 
 publish:
+  image: node:16-alpine
   stage: release
   script:
     - yarn semantic-release
