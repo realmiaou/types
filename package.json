@@ -12,9 +12,6 @@
   "publishConfig": {
     "access": "public"
   },
-  "files": [
-    "src"
-  ],
   "devDependencies": {
     "@nuxtjs/eslint-config": "11.0.0",
     "@nuxtjs/eslint-config-typescript": "11.0.0",
