@@ -1,4 +1,4 @@
-export const languageIso = [
+export const languagesIsoShort = [
   'ab',
   'aa',
   'af',
@@ -181,7 +181,9 @@ export const languageIso = [
   'yi',
   'yo',
   'za',
-  'zu',
+  'zu'
+] as const
+export const languagesIsoLong = [
   'ar-ae',
   'ar-bh',
   'ar-dz',
@@ -278,6 +280,8 @@ export const languageIso = [
   'zh-mo',
   'zh-sg',
   'zh-tw'
-]
-export type LanguageIso = typeof languageIso[number]
+] as const
+export type LanguageIsoShort = typeof languagesIsoShort[number]
+export type LanguageIsoLong = typeof languagesIsoLong[number]
+export type LanguageIso = LanguageIsoLong | LanguageIsoShort
 export type I18nString = { [key in LanguageIso]: string }
