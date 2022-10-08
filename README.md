@@ -19,6 +19,12 @@ addMinutes(10 as Minute)
 const total = minutes + 30
 ```
 
+## Install
+
+```bash
+yarn add --exact --dev @miaou/types
+```
+
 ## Documentation
 ### Typescript
 #### `Parameter`
