@@ -3,6 +3,7 @@ import { CryptoCurrency } from './crypto'
 
 export type Amount = Brand<number, 'Amount'>
 export type AmountEur = Brand<number, 'AmountEur'>
+export type AmountUsd = Brand<number, 'AmountUsd'>
 export const fiatCurrencies = [
   'AED',
   'AFN',
