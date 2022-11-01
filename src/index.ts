@@ -5,4 +5,6 @@ export * from './money'
 export * from './user'
 export * from './web'
 export * from './audit'
+
 export type Parameter<T extends (...args: any) => any> = Parameters<T>[0]
+export type PartialEntity<T, K extends keyof T> = Partial<T> & Pick<T, K>
