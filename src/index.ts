@@ -7,4 +7,4 @@ export * from './web'
 export * from './audit'
 
 export type Parameter<T extends (...args: any) => any> = Parameters<T>[0]
-export type PartialEntity<T, K extends keyof T> = Partial<T> & Pick<T, K>
+export type PartialEntity<T extends {id: any}> = Partial<T> & Pick<T, 'id'>
