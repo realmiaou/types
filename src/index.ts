@@ -9,3 +9,4 @@ export * from './ai'
 
 export type Parameter<T extends (...args: any) => any> = Parameters<T>[0]
 export type PartialEntity<T extends { id: any }> = Partial<T> & Pick<T, 'id'>
+export type Environment = 'production' | 'staging' | 'development' | 'test'
