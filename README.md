@@ -1,5 +1,6 @@
 # `@miaou/types` Typing Brand utility
 
+
 Usable type only to avoid copy/pasting everytime we start a  new project. This lib use `ts-brand`, more information about branding in the repo.
 
 ```typescript
