@@ -6,6 +6,7 @@ export * from './user'
 export * from './web'
 export * from './audit'
 export * from './ai'
+export * from './number'
 
 export type Parameter<T extends (...args: any) => any> = Parameters<T>[0]
 export type PartialEntity<T extends { id: any }> = Partial<T> & Pick<T, 'id'>
